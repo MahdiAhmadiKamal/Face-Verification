@@ -5,8 +5,8 @@ from insightface.app import FaceAnalysis
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--image1', type=str, default="input\img1.jpg")
-parser.add_argument('--image2', type=str, default="input\img2.jpg")
+parser.add_argument('--image1', type=str, default="input/img1.webp")
+parser.add_argument('--image2', type=str, default="input/img2.jpg")
 
 opt = parser.parse_args()
 
